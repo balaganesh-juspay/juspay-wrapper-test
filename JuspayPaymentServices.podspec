@@ -12,11 +12,10 @@ Pod::Spec.new do |s|
 
     s.platform     = :ios, "12.0"
     
-    s.source       = { :http => "https://github.com/balaganesh-juspay/juspay-wrapper-test.git"}
+    s.source       = { :git => "https://github.com/balaganesh-juspay/juspay-wrapper-test.git"}
 
-    s.source_files = '**/*.{h, m}'
+    s.source_files = '**/*.{h,m}'
     # s.resources    = ['Fuse.rb']
 
     s.dependency 'HyperSDK', '2.2.1.7'
-    s.dependency 'HyperAPay', '2.2.1.7'
 end
